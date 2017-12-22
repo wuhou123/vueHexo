@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>vueHexo</name>
+	<name>hexo</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -16,7 +16,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1513937758639</id>
+			<id>1513758077119</id>
 			<name></name>
 			<type>26</type>
 			<matcher>

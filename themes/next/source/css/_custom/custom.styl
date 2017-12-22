@@ -1,0 +1,91 @@
+// Custom styles.
+// 主页文章添加阴影效果
+ .post {
+   margin-top: 60px;
+   margin-bottom: 60px;
+   padding: 25px;
+   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+  }
+//relhome.html
+.title{overflow:hidden;width:100%;}
+.tip{width:100%; line-height:30px; background-color:#63b3ff;color:#fff;text-align:center;}
+.video_box{overflow:hidden;height:50vw;width:100%;}
+#video_iframe{frameborder:0;marginheight:0px;marginwidth:0px;background:#000000;border:2px solid #00a0e9;height:48vw;width:100%;}
+.routes{padding:5px 0;}.routes>button{padding:2px 15px;}
+#busuanzi_container_page_pv{color:#00ce0d;}
+#checks{
+	width:80px;
+	float:left;
+	height:44px;
+	border-right:none;
+	color: #428bca;
+	animation:warn 800ms ease-out infinite alternate;
+	-webkit-animation:warn 800ms ease-out infinite alternate; /* Safari 和 Chrome */
+}
+@keyframes warn {
+    0% {
+    border-color: #7c94e4;
+    box-shadow: 0 0 5px #7c94e4 inset;
+    }	
+    100% {
+	border-color: #1b3cc8;
+    box-shadow: 0 0 20px #1b2eaa inset;
+    }	
+}
+@-webkit-keyframes warn {
+    0% {
+    border-color: #7c94e4;
+    box-shadow: 0 0 5px #7c94e4 inset;
+    }	
+    100% {
+	border-color: #1b3cc8;
+    box-shadow: 0 0 20px #1b2eaa inset;
+    }	
+}
+//二维码生成
+.mobile{
+	position:relative;
+	display:inline-block;
+	color:#00ce0d;
+	margin-left:50px
+}
+.getQrcode{
+	position:absolute;
+	top:-100px;
+	left:-10px;
+	transition:all 1s ease-in;
+	width:100px;
+	height:100px;
+	transform:scale(0);
+	background:#eee
+}
+.mobile:hover .getQrcode{
+	display:block;
+	top:-100px;
+	left:-10px;
+	transform:scale(1)
+}
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+#setIndex .setSvg{
+	width:40px;
+	height:40px;
+	float:left;
+	border:1px solid #e8e8e8;
+	list-style:none;
+	text-align:center;
+	margin-right:20px;
+	line-height:38px	
+}
+.setSvg svg{
+	font-size:35px;
+	vertical-align:middle
+}
+#setIndex .setSvg:hover{
+	border-color:#00ce0d	
+}
