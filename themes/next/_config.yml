@@ -86,7 +86,7 @@ index_with_subtitle: false
 menu:
   relhome: /relhome/ || desktop
   home: / || book
-  use: /use/ || sitemap  
+  use: /use/ || file-text  
   #about: /about/ || user
   tags: /tags/ || tags
   #categories: /categories/ || th
