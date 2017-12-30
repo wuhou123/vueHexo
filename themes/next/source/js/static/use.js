@@ -2,6 +2,8 @@ console.log('use初始化')
 var vm = new Vue({
     el:'#app',
     data:{
+    	isShow:false,
+    	showText:'(点击展开+)',
     	use_key:'2dd481587a5902fa4cfc016a9872041a',
     	getStr:'',
     	use_text:'http:123.com?app_id=500558827&start_date=2017-12-05&end_date=2017-12-06&idx=pv',
@@ -14,6 +16,10 @@ var vm = new Vue({
     	{
     		name:'test2',    		
 			url:'http://wuhou123.gitee.io/'
+    	}],
+    	normalItems:[{
+    		name:'mui-vue2说明文档',
+    		href:'http://wuhou123.gitee.io/canvas/mui-vue2/'
     	}]
     },
     mounted:function(){
@@ -89,6 +95,11 @@ var vm = new Vue({
 //		            + " " + date.getHours() + seperator2 + date.getMinutes()
 //		            + seperator2 + date.getSeconds();
 		    return currentdate;
-}
+},
+		changeShow:function(){
+			this.isShow = !this.isShow;
+			if(this.isShow) this.showText = '(点击收起-)';
+			if(!this.isShow) this.showText = '(点击展开+)';
+		}
     }
 })
