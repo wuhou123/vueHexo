@@ -3,11 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 加时代
-subtitle:
+title: 加时代前端平台
+subtitle: 禾子陪读
 description: 分享博客网站
 author: wuhou123
-language: zh-Hans
+language: zh-CN
+keywords: 武侯博客, 加时代社区 , 加时代 , 个人博客, 博客
 timezone:
 
 # URL
@@ -72,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: BlueLake
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -80,3 +81,22 @@ deploy:
   type: git
   repository: https://github.com/wuhou123/vueHexo.git
   branch: master
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: true
+    raw: true
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
+    
