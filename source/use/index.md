@@ -2,7 +2,7 @@
 title: 文档中心
 date: 2017-12-21 14:28:36
 ---
-###### 文档说明：文档集中管理，关于业务文档需要sig密码
+###### 文档说明：文档集中管理，关于业务文档需要sig参数
 {% raw %}
 <div id="app">
 <h6>一、js生成sig工具<span v-text="showText" @click="changeShow" style="color:#fb0707;cursor:pointer"><span>:</h6>
@@ -39,9 +39,9 @@ date: 2017-12-21 14:28:36
 </div>
 
 </div>
-<script src="../js/static/lib/vue.js"></script>
+<script src="../js/vue.js"></script>
 <script src="http://cdn.bootcss.com/blueimp-md5/1.1.0/js/md5.js"></script>
-<script src="../js/static/use.js"></script>
+<script src="../js/use.js"></script>
 
 {% endraw %}
 

@@ -13,9 +13,9 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
-  - page: about
-    directory: about/
-    icon: fa-user
+  - page: use
+    directory: use/
+    icon: file-text
   - page: rss
     directory: atom.xml
     icon: fa-rss
@@ -120,9 +120,5 @@ about:
 
 # Links widget. Empty links will hide widget.
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: 过去
+    url: http://hao123456.online/
